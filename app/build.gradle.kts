@@ -5,8 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.pokedexapp"
-    compileSdk = 33
-
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.example.pokedexapp"
         minSdk = 24
@@ -30,8 +29,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = VERSION_11
-        targetCompatibility = VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
         jvmTarget = "1.8"
