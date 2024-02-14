@@ -1,5 +1,10 @@
 ### Enhanced Technical Specification for Junior Android Developer: Pokedex App
 
+#### Focus
+- **Offline First**: Prioritizes local data, enhancing user experience in low/no connectivity.
+- **Scalability**: Using Dagger and modular design for ease of maintenance and scalability.
+- **Test Coverage**: Emphasizes robust testing for reliable app performance.
+
 #### Overview
 This document presents a comprehensive guide for developing a Pokedex app with an offline-first approach using MVVM architecture. The app features a list of Pokemon and detailed views for each, leveraging modern Android development tools and practices.
 
@@ -78,9 +83,4 @@ PokedexApp/
     └── ui/
 ```
 
-#### Additional Considerations
-- **Offline First**: Prioritizes local data, enhancing user experience in low/no connectivity.
-- **Scalability**: Using Dagger and modular design for ease of maintenance and scalability.
-- **Test Coverage**: Emphasizes robust testing for reliable app performance.
 
-This enhanced technical specification provides detailed insights into each aspect of the Pokedex app, ensuring a clear and structured approach to development.
