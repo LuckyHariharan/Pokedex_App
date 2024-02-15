@@ -15,5 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "PokedexApp"
 include(":app")
-
-
+ 
